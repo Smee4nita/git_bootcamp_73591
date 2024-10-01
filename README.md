@@ -20,6 +20,12 @@ git status
 
 ## Estados de los archivos
 
-* Untracked: 
-* Unmodify:
-* Staged:
+* Untracked: Archivos que estan en el WD pero GIT no les esta dando seguimiento
+* Unmodify: Archivos que GIT ya esta siguiendo y con respecto al WD, no fueron modificados
+* Staged: archivos que están en el área temporal/intermedia
+
+# Agrego al área de confirmación el archivo o los archivos
+´´´sh
+git add <nombre del archivo>
+git add <nombre del archivo> <nombre del archivo><nombre del archivo>
+git add . # agrega todos los archivos 
