@@ -40,3 +40,9 @@ git commit -m "mensaje descriptivo de lo que contiene el commit"
 ´´´sh
 git commit --amend -m "mensaje corregido"
 ´´´
+
+# Como ver el timeline de commits
+´´´sh
+git log # versión larga
+git lon --online # versión corta
+´´´
